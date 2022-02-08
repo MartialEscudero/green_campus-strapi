@@ -28,14 +28,13 @@
     "Date": {
       "type": "date"
     },
-    "test": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
+    "type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::type.type"
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }
