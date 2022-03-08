@@ -1,8 +1,8 @@
 {
-  "name": "adminstrapi",
+  "name": "admin-green-campus",
   "private": true,
-  "version": "0.2.0",
-  "description": "Strapi Back-End",
+  "version": "1.0.0",
+  "description": "Strapi Back-End for Green Campus",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
