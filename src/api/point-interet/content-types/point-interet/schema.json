@@ -40,19 +40,6 @@
       },
       "type": "richtext"
     },
-    "GeoJSON": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "files"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
     "Media": {
       "type": "media",
       "multiple": true,
@@ -64,7 +51,7 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -85,7 +72,7 @@
     "MarkerGeoJSON": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "json"
