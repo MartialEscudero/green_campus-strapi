@@ -81,6 +81,25 @@
         }
       },
       "type": "uid"
+    },
+    "Couleur": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "blue",
+        "green",
+        "orange",
+        "pink",
+        "purple",
+        "brown",
+        "black"
+      ],
+      "required": true
     }
   }
 }
