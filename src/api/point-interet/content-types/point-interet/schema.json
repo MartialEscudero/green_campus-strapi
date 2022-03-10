@@ -22,7 +22,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Slug": {
       "pluginOptions": {
@@ -30,7 +31,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Description": {
       "pluginOptions": {
@@ -61,21 +63,35 @@
       "target": "api::sentier.sentier",
       "inversedBy": "points_interet"
     },
-    "UUID": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "uid"
-    },
     "MarkerGeoJSON": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "json"
+      "type": "json",
+      "required": true
+    },
+    "UUID": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "maxLength": 11,
+      "minLength": 10
+    },
+    "Ordre": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "required": true
     }
   }
 }
