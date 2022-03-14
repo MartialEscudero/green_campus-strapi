@@ -42,14 +42,12 @@
       },
       "type": "richtext"
     },
-    "Media": {
+    "Image": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "pluginOptions": {
         "i18n": {
@@ -92,6 +90,18 @@
       },
       "type": "integer",
       "required": true
+    },
+    "Audio": {
+      "allowedTypes": [
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }

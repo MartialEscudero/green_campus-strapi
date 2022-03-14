@@ -61,8 +61,7 @@
       "required": false,
       "allowedTypes": [
         "images",
-        "files",
-        "videos"
+        "audios"
       ],
       "pluginOptions": {
         "i18n": {
