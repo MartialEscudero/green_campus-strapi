@@ -25,22 +25,14 @@
       "type": "string",
       "required": true
     },
-    "Slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "Description": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "Image": {
       "type": "media",
@@ -92,11 +84,12 @@
       "required": true
     },
     "Audio": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "audios"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
